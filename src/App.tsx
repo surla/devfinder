@@ -1,4 +1,5 @@
 import React from "react";
+import User from "./User";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <header>
         <h1>devfinder</h1>
       </header>
+      <User />
     </div>
   );
 }
