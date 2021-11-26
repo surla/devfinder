@@ -1,0 +1,18 @@
+:root {
+  --color-blue: hsl(212 100% 50%);
+  --color-blue-gray: hsl(217 20% 51%);
+  --color-kashmir-blue: hsl(217 35% 45%);
+  --color-dark-gray: hsl(217 21% 21%);
+  --color-light-gray: hsl(227 100% 98%);
+  --color-white: hsl(0 0% 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+
+body {
+  background-color: var(--color-light-gray);
+}
