@@ -1,0 +1,58 @@
+span {
+  color: var(--color-kashmir-blue);
+  padding-left: 1.5rem;
+}
+
+.user-card {
+  background-color: var(--color-white);
+  width: 730px;
+  padding: 3rem;
+  border-radius: 15px;
+}
+
+.user-profile-img {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+}
+
+.user-stats {
+  background-color: var(--color-light-gray);
+  padding: 1rem;
+  border-radius: 15px;
+  justify-content: space-evenly;
+}
+
+.user-stats h4 {
+  font-weight: 400;
+  color: var(--color-kashmir-blue);
+}
+
+.user-stats p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.user-content {
+  margin-left: 2rem;
+}
+
+.user-card-paragraph {
+  color: var(--color-kashmir-blue);
+  padding: 1rem 0 1rem 0;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.username {
+  justify-content: space-between;
+}
+
+.join-date {
+  color: red !important;
+}
+
+.user-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}

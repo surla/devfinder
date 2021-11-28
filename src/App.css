@@ -16,3 +16,13 @@
 body {
   background-color: var(--color-light-gray);
 }
+
+.flex {
+  display: flex;
+}
+
+.container {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
